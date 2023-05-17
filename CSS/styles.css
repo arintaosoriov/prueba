@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'singleDay';
+    src: url(../FONT/SingleDay-Regular.ttf);
+  }
+
+h1{
+    font-family: 'singleDay';
+
+}
+.banner{
+    background-image: url(../IMG/bg.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    padding: 0 !important;
+    margin: 0;
+   
+
+}
+.imagen {
+    width: 50%;
+
+
+}
+
+.footer{
+    background-color: #BC70A4;
+    height: 20vh;
+
+}
+
+.btn{
+    background-color: white !important;
+    color: #BC70A4;
+    border-radius: 20px;
+    border: none;
+}
+
+
+@media (max-width: 576px) { 
+    
+    .banner{
+        background-image: url(../IMG/2.png);
+    }
+}
